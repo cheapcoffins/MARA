@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1600" viewBox="0 0 1600 1600" role="img" aria-labelledby="title desc">
+  <title id="title">Cheap Coffins - I AM MARA cover placeholder</title>
+  <desc id="desc">Editable placeholder artwork. Replace this file or update the image path in index.html.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#141414"/>
+      <stop offset="100%" stop-color="#090909"/>
+    </linearGradient>
+    <pattern id="scan" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="1" fill="#1e1e1e" />
+    </pattern>
+  </defs>
+  <rect width="1600" height="1600" fill="url(#bg)"/>
+  <rect width="1600" height="1600" fill="url(#scan)" opacity="0.45"/>
+  <rect x="110" y="110" width="1380" height="1380" fill="none" stroke="#3a3a3a" stroke-width="4"/>
+
+  <text x="180" y="280" fill="#bdbdbd" font-family="Arial, Helvetica, sans-serif" font-size="48" letter-spacing="6">CHEAP COFFINS</text>
+  <text x="180" y="430" fill="#f0f0f0" font-family="Arial, Helvetica, sans-serif" font-size="138" font-weight="700" letter-spacing="2">I AM MARA</text>
+
+  <line x1="180" y1="520" x2="1420" y2="520" stroke="#2a2a2a" stroke-width="2"/>
+
+  <text x="180" y="1370" fill="#888888" font-family="Arial, Helvetica, sans-serif" font-size="38" letter-spacing="2">PLACEHOLDER COVER — REPLACE images/cover.svg OR UPDATE IMAGE PATH</text>
+</svg>
