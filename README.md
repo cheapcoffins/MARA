@@ -29,7 +29,11 @@ This repository contains a **single-page private EPK website** for industry prev
 
 ### 3) Replace cover image
 - Add your cover image file at:
+<<<<<<< codex/build-static-one-page-epk-for-cheap-coffins-y24w53
   - `images/cover.svg`
+=======
+  - `images/cover.jpg`
+>>>>>>> main
 - Or change the image path in `index.html` where commented:
   - `<!-- EDIT IMAGE PATH BELOW (cover image) -->`
 
@@ -58,6 +62,7 @@ This repository contains a **single-page private EPK website** for industry prev
 5. Open the generated GitHub Pages URL.
 
 > This is a client-side password gate for private sharing convenience, not high-security access control.
+<<<<<<< codex/build-static-one-page-epk-for-cheap-coffins-y24w53
 
 
 ## Troubleshooting
@@ -77,3 +82,5 @@ If SoundCloud widget requests return 404, the playlist URL may be private/unavai
 - Confirm you are entering the exact password set in `script.js`.
 - Default password is `mara-preview` unless changed.
 - If storage is blocked by browser privacy settings, unlock still works for the current page load.
+=======
+>>>>>>> main
