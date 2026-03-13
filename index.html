@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Private EPK preview page for Cheap Coffins — I AM MARA." />
+  <title>Cheap Coffins — I AM MARA | Private EPK</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Password gate overlays all content until unlocked. -->
+  <div id="password-gate" class="gate" role="dialog" aria-modal="true" aria-labelledby="gate-title">
+    <div class="gate-card">
+      <p class="kicker">Private Access</p>
+      <h1 id="gate-title">Cheap Coffins — Advance EPK</h1>
+      <p class="gate-copy">This page is intended for labels, media, promoters, and collaborators.</p>
+      <form id="password-form" novalidate>
+        <label for="password-input">Enter password</label>
+        <input id="password-input" name="password" type="password" autocomplete="current-password" required />
+        <button type="submit">Unlock</button>
+        <p id="password-error" class="error" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+
+  <main id="epk-content" class="epk hidden" aria-hidden="true">
+    <!-- HERO / ALBUM HEADER -->
+    <header class="section hero" id="top">
+      <div class="hero-text">
+        <p class="kicker">Private stream / advance preview</p>
+        <!-- EDIT BAND NAME BELOW -->
+        <h1>Cheap Coffins</h1>
+        <!-- EDIT ALBUM TITLE BELOW -->
+        <h2>I AM MARA</h2>
+        <!-- EDIT ALBUM BLURB BELOW -->
+        <p>
+          I AM MARA is a focused, full-length statement balancing post-punk tension,
+          cinematic noise, and disciplined songwriting, assembled for serious release and media consideration.
+        </p>
+      </div>
+      <div class="hero-image-wrap">
+        <!-- EDIT IMAGE PATH BELOW (cover image) -->
+        <img src="images/cover.jpg" alt="I AM MARA album cover" class="hero-image" />
+      </div>
+    </header>
+
+    <!-- ALBUM OVERVIEW -->
+    <section class="section" id="overview">
+      <h3>Album Overview</h3>
+      <div class="meta-grid">
+        <!-- EDIT OVERVIEW METADATA BELOW -->
+        <article>
+          <h4>Short Description</h4>
+          <p>
+            A dark, tightly edited record built around emotional restraint, stark dynamics,
+            and narrative lyric work designed for repeated listening.
+          </p>
+        </article>
+        <article>
+          <h4>Genre / Style</h4>
+          <p>Post-punk, alternative rock, and industrial-leaning darkwave.</p>
+        </article>
+        <article>
+          <h4>Location</h4>
+          <p>Based in [City, Region].</p>
+        </article>
+        <article>
+          <h4>Release Status</h4>
+          <p>Final mixes complete; private pre-release stream now open for consideration.</p>
+        </article>
+        <article>
+          <h4>FFO / RIYL</h4>
+          <p>Interpol, Chelsea Wolfe, The Soft Moon, early Nine Inch Nails.</p>
+        </article>
+        <article>
+          <h4>Key Selling Points</h4>
+          <ul>
+            <li>Distinctive sonic identity with crossover editorial potential.</li>
+            <li>Strong visual and thematic cohesion suitable for rollout campaigns.</li>
+            <li>Live-ready material with clear sync and playlist opportunities.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- PRIVATE STREAM -->
+    <section class="section" id="stream">
+      <h3>Private Album Stream — I AM MARA</h3>
+      <p class="section-note">Private streaming preview for labels, media, and collaborators.</p>
+      <div class="embed-wrap soundcloud-wrap">
+        <!-- EDIT SOUNDCLOUD PLAYLIST URL BELOW (replace in iframe src when needed) -->
+        <iframe
+          width="100%"
+          height="450"
+          scrolling="no"
+          frameborder="no"
+          allow="autoplay"
+          src="https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fcheapcoffins%2Fsets%2Fi-am-mara&color=%23000000">
+        </iframe>
+      </div>
+    </section>
+
+    <!-- VIDEO -->
+    <section class="section" id="video">
+      <h3>Video</h3>
+      <div class="video-grid">
+        <div class="embed-wrap video-wrap">
+          <!-- EDIT YOUTUBE LINK BELOW -->
+          <iframe
+            src="https://www.youtube.com/embed/VIDEO_ID_ONE"
+            title="Cheap Coffins video one"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+          </iframe>
+        </div>
+        <div class="embed-wrap video-wrap">
+          <!-- EDIT YOUTUBE LINK BELOW -->
+          <iframe
+            src="https://www.youtube.com/embed/VIDEO_ID_TWO"
+            title="Cheap Coffins video two"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- BAND / PROJECT BACKGROUND -->
+    <section class="section" id="background">
+      <h3>Band / Project Background</h3>
+      <p>
+        Cheap Coffins is an independent project centered on disciplined composition, high-contrast production,
+        and a long-form visual identity. I AM MARA extends the project’s darker direction with a more precise
+        editorial focus, intended for thoughtful coverage, strategic partnerships, and selective live opportunities.
+      </p>
+    </section>
+
+    <!-- PRESS / RIYL / POSITIONING -->
+    <section class="section" id="press">
+      <h3>Press / RIYL / Positioning</h3>
+      <div class="meta-grid">
+        <article>
+          <h4>RIYL / FFO</h4>
+          <p>For audiences of dark alternative music with post-punk and industrial crossover taste.</p>
+        </article>
+        <article>
+          <h4>Release Strengths</h4>
+          <p>Strong sequencing, immediate tonal identity, and clear single/cutdown opportunities.</p>
+        </article>
+        <article>
+          <h4>Sonic Identity</h4>
+          <p>Minimal low-end pressure, sharp guitar architecture, and cinematic vocal framing.</p>
+        </article>
+        <article>
+          <h4>Live / Recording Context</h4>
+          <p>Recorded across home and studio sessions; arranged for compact, high-impact live adaptation.</p>
+        </article>
+        <article>
+          <h4>Previous Releases / Traction / Notable Details</h4>
+          <p>Prior independent releases built a niche listener base and early press interest in dark editorial spaces.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <h3>Contact</h3>
+      <!-- EDIT CONTACT INFO BELOW -->
+      <p><strong>Primary Contact:</strong> [Name]</p>
+      <p><strong>Email:</strong> <a href="mailto:contact@example.com">contact@example.com</a></p>
+      <p><strong>Socials:</strong> @cheapcoffins (Instagram) / @cheapcoffins (X)</p>
+      <p><strong>Management / Booking / Label:</strong> [Optional line for representation details]</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
